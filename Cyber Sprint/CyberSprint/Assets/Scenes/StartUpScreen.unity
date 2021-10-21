@@ -557,9 +557,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1943508381}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee6207a0c829f0488bddf3434baee77, type: 3}
+  m_Script: {fileID: 11500000, guid: ec7f913e7c0c0cf4884373d51b8e2681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBeforeLoading: 7
+  sceneNameToLoad: 1
 --- !u!4 &1943508383
 Transform:
   m_ObjectHideFlags: 0
