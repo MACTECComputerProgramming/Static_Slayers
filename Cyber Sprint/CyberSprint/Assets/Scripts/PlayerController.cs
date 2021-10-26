@@ -129,7 +129,7 @@ public class PlayerController : MonoBehaviour
 
         //Wallrun
         if (DetectWallL.Obstruction && !rbfps.Grounded && !IsParkour && canwallrun) // if detect wall on the left and is not on the ground and not doing parkour(climb/vault)
-        {
+        {   
             WallrunningLeft = true;
             canwallrun = false;
             upforce = WallRunUpForce; //refer to line 186
