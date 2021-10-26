@@ -10,11 +10,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Serializable]
         public class MovementSettings
         {
-            public float ForwardSpeed = 8.0f;   // Speed when walking forward
-            public float BackwardSpeed = 4.0f;  // Speed when walking backwards
-            public float StrafeSpeed = 4.0f;    // Speed when walking sideways
-            public float SpeedInAir = 8.0f;   // Speed when onair
-            public float JumpForce = 30f;
+            public float ForwardSpeed = 1000f;   // Speed when walking forward
+            public float BackwardSpeed = 80f;  // Speed when walking backwards
+            public float StrafeSpeed = 30f;    // Speed when walking sideways
+            public float SpeedInAir = 10f;   // Speed when onair
+            public float JumpForce = 40f;
 
             [HideInInspector] public float CurrentTargetSpeed = 8f;
             
