@@ -15,11 +15,19 @@ C:/Users/maconrm180/Documents/GitHub/Arp/Static_Slayers/Cyber Sprint/CyberSprint
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 53252
 Successfully changed project path to: C:/Users/maconrm180/Documents/GitHub/Arp/Static_Slayers/Cyber Sprint/CyberSprint
 C:/Users/maconrm180/Documents/GitHub/Arp/Static_Slayers/Cyber Sprint/CyberSprint
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 35.95 ms, found 2 plugins.
+=======
+64489
+Successfully changed project path to: C:/Users/maconrm180/Documents/GitHub/Arp/Static_Slayers/Cyber Sprint/CyberSprint
+C:/Users/maconrm180/Documents/GitHub/Arp/Static_Slayers/Cyber Sprint/CyberSprint
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.44 ms, found 2 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,10 +57,26 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3050ms)
 		BeginReloadAssembly (88ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007277 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5925ms)
+		BeginReloadAssembly (168ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (528ms)
 			LoadAssemblies (83ms)
@@ -60,19 +85,37 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (36ms)
 			SetupLoadedEditorAssemblies (200ms)
+=======
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (983ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (367ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (33ms)
 				BeforeProcessingInitializeOnLoad (19ms)
 				ProcessInitializeOnLoadAttributes (102ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
+=======
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.007551 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -83,10 +126,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1321ms)
 		BeginReloadAssembly (202ms)
+=======
+Registered in 0.011495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2383ms)
+		BeginReloadAssembly (390ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (27ms)
 		EndReloadAssembly (1031ms)
 			LoadAssemblies (121ms)
@@ -95,9 +151,20 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (48ms)
 			SetupLoadedEditorAssemblies (420ms)
+=======
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1835ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (737ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
+<<<<<<< Updated upstream
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (106ms)
 				ProcessInitializeOnLoadAttributes (287ms)
@@ -118,6 +185,28 @@ System memory in use after: 65.5 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1837.
 Total: 4.889600 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.061300 ms MarkObjects: 4.490200 ms  DeleteObjects: 0.104000 ms)
+=======
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (501ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 6.014700 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.059700 ms MarkObjects: 5.369400 ms  DeleteObjects: 0.180500 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,6 +221,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/Materials/Red.mat
   artifactKey: Guid(7f5a1d4cfe0a54a46a17a2e960384d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Red.mat using Guid(7f5a1d4cfe0a54a46a17a2e960384d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16af70759f1937a0f038943bdd7d9d57') in 0.348497 seconds 
@@ -489,6 +579,276 @@ System memory in use after: 68.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1885.
 Total: 4.617000 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.047700 ms MarkObjects: 4.318900 ms  DeleteObjects: 0.026600 ms)
+=======
+  path: Assets/Frame.mat
+  artifactKey: Guid(715c2334948e0fd4d87c082edd64b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frame.mat using Guid(715c2334948e0fd4d87c082edd64b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320a9a38244c36270d702da0c459340e') in 0.987678 seconds 
+  Import took 0.994243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Sight.mat
+  artifactKey: Guid(05b29301b4264bc4d9c7c1a52d83dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sight.mat using Guid(05b29301b4264bc4d9c7c1a52d83dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d8205f2cf1a71d79462dcd9c32a9ac') in 0.288107 seconds 
+  Import took 0.294286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Hands_01.mat
+  artifactKey: Guid(e1f604759da9f224f96daafc736c480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_01.mat using Guid(e1f604759da9f224f96daafc736c480a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0507814fa78f386eecc750b4411ca24') in 0.098478 seconds 
+  Import took 0.104783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Hands_03.mat
+  artifactKey: Guid(ab5d2c3269c2b8a4680803a71a756581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_03.mat using Guid(ab5d2c3269c2b8a4680803a71a756581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18225a337092b7ac46d00e6a1c39e11e') in 0.070318 seconds 
+  Import took 0.077081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Hands_07.mat
+  artifactKey: Guid(99f6889704ab41c4899d8189189c6a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_07.mat using Guid(99f6889704ab41c4899d8189189c6a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8241cd4510e1384c7000d02ba010f96e') in 0.078451 seconds 
+  Import took 0.085065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Hand_Albedo(8).tga
+  artifactKey: Guid(548f7fc6672de5940aa5f71369e9f00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(8).tga using Guid(548f7fc6672de5940aa5f71369e9f00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be30c933140f9d098f477bf409d87a98') in 0.063835 seconds 
+  Import took 0.069366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Hand_Albedo(2).tga
+  artifactKey: Guid(c4d30ef125e86514fb899920aac18bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(2).tga using Guid(c4d30ef125e86514fb899920aac18bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acb6ce86a489bbdb94297e0739f3949') in 0.039280 seconds 
+  Import took 0.045206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Hands_06.mat
+  artifactKey: Guid(1b2872d3e2d57f8429c6c07177735886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_06.mat using Guid(1b2872d3e2d57f8429c6c07177735886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2ea9b23bbc85bf596fa9b1915edb0d') in 0.064702 seconds 
+  Import took 0.071559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/Lighter.mat
+  artifactKey: Guid(17b83412c80a084489eb2aa9c977ddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lighter.mat using Guid(17b83412c80a084489eb2aa9c977ddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76612227f56822b84e4299fa38835f1d') in 0.067521 seconds 
+  Import took 0.073737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Hand_Ao.tga
+  artifactKey: Guid(fdceb0f45d7ef7040a5338da5a57ef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Ao.tga using Guid(fdceb0f45d7ef7040a5338da5a57ef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b815ea5a19a8cad537bf43c237885e74') in 0.036032 seconds 
+  Import took 0.041477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Hand_Metallic(6).tga
+  artifactKey: Guid(b5fee24270de28246a96b373005655f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Metallic(6).tga using Guid(b5fee24270de28246a96b373005655f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e080d2da0fb23f68c6f4e3bcd494db') in 0.047979 seconds 
+  Import took 0.053440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Hand_Normals(8).tga
+  artifactKey: Guid(7544ec0ef0c764443b2aafad86bc7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Normals(8).tga using Guid(7544ec0ef0c764443b2aafad86bc7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944f304b6f3acc9789f244cb6b2a2abe') in 0.040569 seconds 
+  Import took 0.047004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Hand_Albedo(10).tga
+  artifactKey: Guid(58d08ef11a91fce42a9a12fad63dccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(10).tga using Guid(58d08ef11a91fce42a9a12fad63dccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4981c3878247cd54c232eab82a84581') in 0.040264 seconds 
+  Import took 0.045460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Sight_Emessive2.mat
+  artifactKey: Guid(4ab79a5dd70a5164c9a8696b578f2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sight_Emessive2.mat using Guid(4ab79a5dd70a5164c9a8696b578f2fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d178ec97571ca4d37ce56cccdaef851') in 0.041101 seconds 
+  Import took 0.046885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Hands_08.mat
+  artifactKey: Guid(077d2d12fae931447a0b81a0e253359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_08.mat using Guid(077d2d12fae931447a0b81a0e253359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec28b862fffffd6b5e339f3ed80df3c') in 0.063309 seconds 
+  Import took 0.071262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Hand_Albedo(4).tga
+  artifactKey: Guid(da1e25798dcd75948ac61798f2aae566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(4).tga using Guid(da1e25798dcd75948ac61798f2aae566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a809735d6effe2786d1e73e9bee505f') in 0.038791 seconds 
+  Import took 0.044817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Landing 2 (Amm).mp3
+  artifactKey: Guid(fa13b6c93fbbc6e4e98c98808d6366b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Landing 2 (Amm).mp3 using Guid(fa13b6c93fbbc6e4e98c98808d6366b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b6597b780b7019516083c2b3936c7f') in 0.084879 seconds 
+  Import took 0.090600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Hands_10.mat
+  artifactKey: Guid(b7f01694860171d44b03fcf2fae73aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_10.mat using Guid(b7f01694860171d44b03fcf2fae73aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056a3d86d02cc64596a0628b319398cb') in 0.063871 seconds 
+  Import took 0.070533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Hand_Albedo(9).tga
+  artifactKey: Guid(bf973c7bd801f23418f0de37026711d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(9).tga using Guid(bf973c7bd801f23418f0de37026711d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea08070daa1b18428cd4cdc75f0e56c') in 0.037513 seconds 
+  Import took 0.042856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Hand_Normals(7).tga
+  artifactKey: Guid(037a4b607ee5326408a66bc0dc15f0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Normals(7).tga using Guid(037a4b607ee5326408a66bc0dc15f0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55803729aad8b40b98457d455d9ab13c') in 0.038382 seconds 
+  Import took 0.043610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Hand_Normals(10).tga
+  artifactKey: Guid(2eaf6bc76a40ec84283ad3fa74622718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Normals(10).tga using Guid(2eaf6bc76a40ec84283ad3fa74622718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946db73965894d40ef642568c574c6fc') in 0.039039 seconds 
+  Import took 0.044953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Hands_09.mat
+  artifactKey: Guid(4fbc2408dc2c42245978be9f081af267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_09.mat using Guid(4fbc2408dc2c42245978be9f081af267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc38a925ec6239ee72b6f954d1ee937') in 0.062261 seconds 
+  Import took 0.069637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Hand_Albedo(7).tga
+  artifactKey: Guid(94c12a225c81a184d9d0b99e18cf3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(7).tga using Guid(94c12a225c81a184d9d0b99e18cf3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ae85970aa95c0604c849ae902d2204') in 0.038715 seconds 
+  Import took 0.044945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Hand_Albedo(1).tga
+  artifactKey: Guid(1c9e5fb1997b13e40b2481dddd3bc7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(1).tga using Guid(1c9e5fb1997b13e40b2481dddd3bc7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2889ec7d068f92202fe78225356b436') in 0.038949 seconds 
+  Import took 0.045414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Hand_Metallic.tga
+  artifactKey: Guid(ca0fa75a31a89e042b8217f14ae25dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Metallic.tga using Guid(ca0fa75a31a89e042b8217f14ae25dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349f49164f048622aa67f56e6c4993fb') in 0.040230 seconds 
+  Import took 0.045975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Landing 1 (Amm).mp3
+  artifactKey: Guid(29ad46afce4a249409ab572a8dd8b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Landing 1 (Amm).mp3 using Guid(29ad46afce4a249409ab572a8dd8b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd73d6fe7551f49ef460852c44221de') in 0.043310 seconds 
+  Import took 0.049184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Hands_05.mat
+  artifactKey: Guid(0e2f72e9f10f84d459f6907ac2d58152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_05.mat using Guid(0e2f72e9f10f84d459f6907ac2d58152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775c12b9a084749b07a3db50a1e41ad9') in 0.061712 seconds 
+  Import took 0.067921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Hand_Albedo(5).tga
+  artifactKey: Guid(7ad8a7f94977c874c92bfeef89f05bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(5).tga using Guid(7ad8a7f94977c874c92bfeef89f05bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6def68d35fbbe5f0a2eb37a0fd66b3f') in 0.037897 seconds 
+  Import took 0.043725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Hand_Albedo(6).tga
+  artifactKey: Guid(3db22d3dcd9cac04b856c28402e10933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(6).tga using Guid(3db22d3dcd9cac04b856c28402e10933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e02f7e8122073a00f52f2db8a5a86c') in 0.039883 seconds 
+  Import took 0.045130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Hand_Metallic(7).tga
+  artifactKey: Guid(f67233b9d9f7d144a8fdb2f857fbe457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Metallic(7).tga using Guid(f67233b9d9f7d144a8fdb2f857fbe457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ff2fc1bd3ab590277c5ec1291e505') in 0.041832 seconds 
+  Import took 0.047200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Hand_Normals(6).tga
+  artifactKey: Guid(fcd4e7426d6348f48bd2b1d493632d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Normals(6).tga using Guid(fcd4e7426d6348f48bd2b1d493632d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621a8cac287b169e48570b304976e30f') in 0.040091 seconds 
+  Import took 0.046265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Hand_Metallic(9).tga
+  artifactKey: Guid(e677a52b6e3ebbe4cb4b45c882e85cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Metallic(9).tga using Guid(e677a52b6e3ebbe4cb4b45c882e85cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52b2c13251f120d6ff7d5ec9a14accc') in 0.039168 seconds 
+  Import took 0.044960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Hand_Normals(9).tga
+  artifactKey: Guid(47b047d4c0f52844bae54b336518337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Normals(9).tga using Guid(47b047d4c0f52844bae54b336518337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a701e6e5f4509efb26dcd1017a5a8e50') in 0.047331 seconds 
+  Import took 0.053415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Hand_normals.tga
+  artifactKey: Guid(9c140daf685c008479faaef6bf90355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_normals.tga using Guid(9c140daf685c008479faaef6bf90355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2902940543456e595096c4ca9f4c53de') in 0.049615 seconds 
+  Import took 0.055621 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -502,6 +862,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006229 seconds.
@@ -546,6 +907,22 @@ System memory in use after: 68.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1887.
 Total: 4.556200 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.046500 ms MarkObjects: 4.269100 ms  DeleteObjects: 0.024500 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Hands_04.mat
+  artifactKey: Guid(cbef588c46647524c8fd1067c1394c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_04.mat using Guid(cbef588c46647524c8fd1067c1394c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926aecedfdb5e31dc18d090165f8d07b') in 0.063540 seconds 
+  Import took 0.070505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Hands_02.mat
+  artifactKey: Guid(fda3580c333be3747ac41a3388a4807c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_02.mat using Guid(fda3580c333be3747ac41a3388a4807c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdf6b53adc1bfc091479e4813537484') in 0.066891 seconds 
+  Import took 0.074272 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -559,6 +936,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.007104 seconds.
@@ -603,6 +981,22 @@ System memory in use after: 68.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1889.
 Total: 3.960300 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.045800 ms MarkObjects: 3.680100 ms  DeleteObjects: 0.023000 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Hand_Albedo(3).tga
+  artifactKey: Guid(61b16f86ff7031e49a163b5591385723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Albedo(3).tga using Guid(61b16f86ff7031e49a163b5591385723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694dae6ae34232e1c9b45e2496fa3c84') in 0.038641 seconds 
+  Import took 0.044382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Hand_Metallic(8).tga
+  artifactKey: Guid(bc3be03960314a2479b02094eb0e45ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Metallic(8).tga using Guid(bc3be03960314a2479b02094eb0e45ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe437b9acb7d2be522051f40c02e7e8') in 0.038027 seconds 
+  Import took 0.043590 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -616,6 +1010,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006559 seconds.
@@ -660,6 +1055,22 @@ System memory in use after: 68.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1891.
 Total: 3.492300 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.069000 ms MarkObjects: 3.147900 ms  DeleteObjects: 0.022000 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Hands_Without_Weapon.prefab
+  artifactKey: Guid(202a4dd263f17bc44863d452a7ba9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hands_Without_Weapon.prefab using Guid(202a4dd263f17bc44863d452a7ba9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e788984fabc192f9c81857442875b087') in 0.158738 seconds 
+  Import took 0.167454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Hand_Metallic(10).tga
+  artifactKey: Guid(56752b1e0aaaf2f47a1a4893e72926a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Metallic(10).tga using Guid(56752b1e0aaaf2f47a1a4893e72926a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d5fe833d2e7c54ac1690fc0b1df217') in 0.046338 seconds 
+  Import took 0.054193 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -675,6 +1086,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.005532 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -717,6 +1129,50 @@ System memory in use after: 68.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1893.
 Total: 5.226100 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.064900 ms MarkObjects: 4.839600 ms  DeleteObjects: 0.027400 ms)
+=======
+Registered in 0.010156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2617ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2122ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (637ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (891ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (614ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 6.005400 ms (FindLiveObjects: 0.407800 ms CreateObjectMapping: 0.059100 ms MarkObjects: 5.489200 ms  DeleteObjects: 0.045800 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -732,6 +1188,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.050365 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -762,10 +1219,43 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (494ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (27ms)
+=======
+Registered in 0.009994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2283ms)
+		BeginReloadAssembly (310ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1812ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (25ms)
+>>>>>>> Stashed changes
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
@@ -774,6 +1264,16 @@ System memory in use after: 68.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1895.
 Total: 7.714400 ms (FindLiveObjects: 0.453200 ms CreateObjectMapping: 0.064200 ms MarkObjects: 7.119800 ms  DeleteObjects: 0.073200 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1435 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 8.481300 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.090300 ms MarkObjects: 7.938400 ms  DeleteObjects: 0.046500 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
